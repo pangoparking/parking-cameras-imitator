@@ -25,7 +25,7 @@ public class ParkingCamerasImitatorApplication {
 	@Bean
 	Supplier<CarData> carDataSupplier() {
 		log.debug("creating an event for Middleware Broker");
-		return imitator::nextCar;
+		return imitator::nextCar; 
 	}
 
 }
